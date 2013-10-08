@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <?php
+    // Basic variables
+    $user = "my";
+
     require('./config.php');
     // Populate the constructor!!!!
     $details = new FpopDetails("me@mydomain.com", "my_password");

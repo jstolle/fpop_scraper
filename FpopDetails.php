@@ -1,7 +1,4 @@
 <?php
-// Basic variables
-$user = "my";
-
 Class FpopDetails
 {
     private $login_url = "https://www.freedompop.com/login.htm";
