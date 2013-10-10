@@ -52,7 +52,7 @@ Class FpopDetails
         $usage = curl_exec($usage_curl);
         if (curl_errno($usage_curl))
         {
-            throw new Exception('Unable to retrieve page: ' $this->home_url);
+            throw new Exception('Unable to retrieve page: ' . $this->home_url);
         }
         
         curl_close($usage_curl);
