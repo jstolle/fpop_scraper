@@ -4,7 +4,7 @@
     // Basic variables
     $user = "my";
 
-    require('./config.php');
+    require('./FpopDetails.php');
     // Populate the constructor!!!!
     $details = new FpopDetails("me@mydomain.com", "my_password");
   ?>
